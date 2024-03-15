@@ -12,6 +12,8 @@ This repository contains :
 - Swin Transformer for 1-dimensional data -> [ ***models.swin_transformer_1d.SwinTransformerLayer*** ]
 - Swin Transformer V2 for 1-dimensional data -> [ ***models.swin_transformer_1d_v2.SwinTransformerV2Layer*** ]
 
+![teaser](assets/swin_transformer_1d.jpg)
+
 ## Difference from the original 2-d implementation
 
 1. While, in the original repository, a `SwinTransformer` module that directly takes image data as input is provided, this repository only provides a general-purpose `SwinTransformerLayer` module that takes 1-dimensional embeddings as input.
